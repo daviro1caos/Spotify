@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		65C52B701D7A32DC0010BBDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C52B6F1D7A32DC0010BBDD /* main.m */; };
 		65C52B731D7A32DC0010BBDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C52B721D7A32DC0010BBDD /* AppDelegate.m */; };
-		65C52B761D7A32DC0010BBDD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C52B751D7A32DC0010BBDD /* ViewController.m */; };
+		65C52B761D7A32DC0010BBDD /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C52B751D7A32DC0010BBDD /* Start.m */; };
 		65C52B791D7A32DC0010BBDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C52B771D7A32DC0010BBDD /* Main.storyboard */; };
 		65C52B7C1D7A32DC0010BBDD /* Spotify.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65C52B7A1D7A32DC0010BBDD /* Spotify.xcdatamodeld */; };
 		65C52B7E1D7A32DC0010BBDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C52B7D1D7A32DC0010BBDD /* Assets.xcassets */; };
@@ -21,8 +21,8 @@
 		65C52B6F1D7A32DC0010BBDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		65C52B711D7A32DC0010BBDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		65C52B721D7A32DC0010BBDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		65C52B741D7A32DC0010BBDD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		65C52B751D7A32DC0010BBDD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		65C52B741D7A32DC0010BBDD /* Start.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Start.h; sourceTree = "<group>"; };
+		65C52B751D7A32DC0010BBDD /* Start.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Start.m; sourceTree = "<group>"; };
 		65C52B781D7A32DC0010BBDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65C52B7B1D7A32DC0010BBDD /* Spotify.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Spotify.xcdatamodel; sourceTree = "<group>"; };
 		65C52B7D1D7A32DC0010BBDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,10 +60,8 @@
 		65C52B6D1D7A32DC0010BBDD /* Spotify */ = {
 			isa = PBXGroup;
 			children = (
-				65C52B711D7A32DC0010BBDD /* AppDelegate.h */,
-				65C52B721D7A32DC0010BBDD /* AppDelegate.m */,
-				65C52B741D7A32DC0010BBDD /* ViewController.h */,
-				65C52B751D7A32DC0010BBDD /* ViewController.m */,
+				65C52B891D7A33140010BBDD /* Main */,
+				65C52B881D7A32E10010BBDD /* Controllers */,
 				65C52B771D7A32DC0010BBDD /* Main.storyboard */,
 				65C52B7D1D7A32DC0010BBDD /* Assets.xcassets */,
 				65C52B7F1D7A32DC0010BBDD /* LaunchScreen.storyboard */,
@@ -80,6 +78,24 @@
 				65C52B6F1D7A32DC0010BBDD /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65C52B881D7A32E10010BBDD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				65C52B741D7A32DC0010BBDD /* Start.h */,
+				65C52B751D7A32DC0010BBDD /* Start.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		65C52B891D7A33140010BBDD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				65C52B721D7A32DC0010BBDD /* AppDelegate.m */,
+				65C52B711D7A32DC0010BBDD /* AppDelegate.h */,
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,7 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65C52B761D7A32DC0010BBDD /* ViewController.m in Sources */,
+				65C52B761D7A32DC0010BBDD /* Start.m in Sources */,
 				65C52B731D7A32DC0010BBDD /* AppDelegate.m in Sources */,
 				65C52B7C1D7A32DC0010BBDD /* Spotify.xcdatamodeld in Sources */,
 				65C52B701D7A32DC0010BBDD /* main.m in Sources */,
