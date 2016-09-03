@@ -7,11 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Spotify/Spotify.h>
 #import <CoreData/CoreData.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate, SPTAudioStreamingDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
 
 @property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 @property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
